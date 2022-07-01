@@ -1,0 +1,20 @@
+a .photo{
+	width: 30%;
+	margin:5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.image{
+	text-align: center;
+}
+a .photo:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+.icon-style{
+	font-size: 2em;
+	color: #17a2b8 !important;
+}
+.phone,.email,.grade,.special-title{
+	color: #17a2b8 !important;
+}
